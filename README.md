@@ -1,6 +1,6 @@
 # Precise Polymer Property Predictor (PPPP)
 
-This repository benchmarks **AIMNet-X2D** and **Mamba (State Space Models)** architectures to predict five key polymer properties using the large-scale dataset from the **🏆NeurIPS 2025 Open Polymer Prediction** challenge.
+This repository benchmarks **AIMNet-X2D** and **Mamba (State Space Models)** architectures to predict five key polymer properties using the large-scale dataset from the **🏆[NeurIPS 2025 Open Polymer Prediction](https://kaggle.com/competitions/neurips-open-polymer-prediction-2025)**
 
 **Target Properties:**
 - Density (g/cm³)
