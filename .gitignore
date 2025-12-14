@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+venv/
+.env
+.claude
+aimnet-x2d/
+dataset/
+models/
+legacy/
+kaggle-submission/
+Molecular ML - Project Final Presentation.pdf
+
+submission.txt

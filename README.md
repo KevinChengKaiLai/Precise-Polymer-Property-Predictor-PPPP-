@@ -28,7 +28,6 @@ To tackle the multi-scale nature of polymer physics, we deployed two complementa
 * **Why for Polymers:** Polymers are long molecular chains where properties like **Glass Transition Temperature (Tg)** and **Radius of Gyration (Rg)** depend on the connectivity and conformation of the entire backbone. Mamba allows us to ingest full polymer SMILES strings without truncation, capturing the **long-range dependencies** that local graph convolutions might miss.
 
 
-
 ## Key Challenge: Sparse Dataset (90% Missing Labels)
 
 The NeurIPS 2025 Open Polymer Prediction dataset exhibits extreme sparsity—most samples lack experimental labels for 80% property (Density, Tc, Tg, Rg). Standard ML models trained on small, disjoint subsets often fail to generalize. Dropping rows with missing values would discard the vast majority of our data, severely limiting model performance.
@@ -57,7 +56,9 @@ The Kaggle kernel operates fully offline with pre-loaded dependencies and model 
 
 
 ## Setup
-These notebooks were designed to run in Colab or Kaggle, so there's no need to set anything up in your local machine.  **Every dependency setting is already scripted in the corresponding jupyter notebook.** If you like to run locally, please refer to AIMnet-X2d and Mamba github repository. 
+These notebooks were designed to run in Colab or Kaggle, so there's no need to set anything up in your local machine.   **Every dependency setting is already scripted in the corresponding jupyter notebook.** meanwhile we still prepare [requirements.txt](requirements.txt) for you, if you like to run locally, please refer to it. 
+
+### important: the Kaggle dependency set up for AIMNet-X2D is tricky, please refer to [Kaggle_Dependency.md](Kaggle_Dependency.md) when you're trying to reproduce the result.
 
 Data: [NeurIPS Open Polymer Prediction 2025](https://kaggle.com/competitions/neurips-open-polymer-prediction-2025)
 
