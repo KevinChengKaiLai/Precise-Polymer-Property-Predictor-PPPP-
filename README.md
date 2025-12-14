@@ -63,3 +63,6 @@ These notebooks were designed to run in Colab or Kaggle, so there's no need to s
 Data: [NeurIPS Open Polymer Prediction 2025](https://kaggle.com/competitions/neurips-open-polymer-prediction-2025)
 
 
+
+
+
